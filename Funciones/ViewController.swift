@@ -12,14 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
+      
+        printConsola()   //Llamamos a la funcion
+    }
+    //Función básica de ejemplo
+    func printConsola(){
+        println("Hola estoy dentro de una función")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 
 }
 

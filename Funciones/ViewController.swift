@@ -15,12 +15,21 @@ class ViewController: UIViewController {
       
       
         printConsola()   //Llamamos a la funcion
+        datoPais ("Mexico", nombreCapital:"Mexico")
     }
     //Función básica de ejemplo
     func printConsola(){
         println("Hola estoy dentro de una función")
     }
-
+    
+    /*Función que no devuleve nada, sólo concatena 2 datos*/
+    func datoPais(nombrePais: String, nombreCapital: String){
+    
+        var frase = "Los datos del pais son \(nombrePais) y su capital es \(nombreCapital)"
+        
+        println(frase)
+    
+    }
     
 
 }

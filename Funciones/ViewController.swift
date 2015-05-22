@@ -17,8 +17,11 @@ class ViewController: UIViewController {
         printConsola()   //Llamamos a la funcion
         datoPais ("Mexico", nombreCapital:"Mexico")
         
+        
         var dPaisInterno = datoPaisRetorno(nombrePais: "Argentina", ciudadCapital: "Buenos Aires")
         println(dPaisInterno)
+        
+     
     }
     
     
@@ -37,10 +40,13 @@ class ViewController: UIViewController {
         println(frase)
     
     }
+  
     
-      /*Función con retorno*/
+    
+    
+    /*Función con retorno*/
     func datoPaisRetorno(nombrePais nombrePaisInterno:String, ciudadCapital ciudadCapitalInterno:String)->String{
-    
+        
         
         var frase = "Los datos del pais son \(nombrePaisInterno) y su capital es: \(ciudadCapitalInterno)"
         
